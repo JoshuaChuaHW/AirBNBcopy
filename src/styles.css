@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./font/AirbnbCereal_W_Lt.otf') format('opentype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./font/AirbnbCereal_W_Bk.otf') format('opentype');
+    font-weight: 400; /* Book/Regular */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./font/AirbnbCereal_W_Md.otf') format('opentype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./font/AirbnbCereal_W_Bd.otf') format('opentype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./font/AirbnbCereal_W_XBd.otf') format('opentype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AirbnbCereal';
+    src: url('./font/AirbnbCereal_W_Blk.otf') format('opentype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+  }
+  
+body{
+    margin: 0px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: left;
+    padding-left: 2vw;
+    box-shadow: 0 1px 5px 2px rgb(231, 231, 231);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    width: 10vw;
+    min-height: 50px;
+    min-width: 160px;
+    margin: 15px;
+}
+
+.pictures{
+    align-self: center;
+    display:flex;
+    flex-direction: row;
+    max-width: 1000px;
+}
+
+.pictures>div{
+    display:flex;
+    flex-direction: column;
+    margin: 7px;
+    justify-content: center;
+}
+
+.pictures>div>img{
+    width:100px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.HeroText{
+    font-family:"AirbnbCereal" ;
+    font-weight: 500;
+}
+
+
+.BookNowButton{
+    margin-top: 20px;
+    height: 40px;
+    width: 130px;
+    border-radius: 9px;
+    border-width: 0;
+    background-color: #fd5c63;
+    font-family: "AirbnbCereal";
+    color: white;
+}
+
+
+
+
+
