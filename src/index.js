@@ -6,10 +6,12 @@ import Hero from "./hero"
 import Experience from "./experiences"
 ReactDOM.render(
     <div class="main">
+
         <NavigationBar/>
         <Hero/>
         <Experience/>
-        
+
     </div>,
+    
     document.getElementById("root")
 )
